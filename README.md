@@ -146,7 +146,3 @@ Dengan pola ini, setiap komponen baru tetap modular, konsisten, dan mudah di-mai
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/)
-
----
-
-> Dibuat dengan ❤️ oleh YYS — Silakan gunakan, modifikasi, dan kembangkan sesuai kebutuhan!
