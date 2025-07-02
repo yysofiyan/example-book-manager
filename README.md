@@ -13,7 +13,13 @@
 </p>
 
 ---
+# 🚀 Live Demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de33da51-b984-4b4f-bbed-414ef6f07765/deploy-status)](https://app.netlify.com/projects/book-managers/deploys)
+
+🔗 [book-managers.netlify.app](https://book-managers.netlify.app)
+
+---
 
 Aplikasi **Manajemen Buku Pribadi** adalah aplikasi web untuk mencatat, mengelola, dan memantau koleksi buku bacaan Anda secara mudah dan modern. Dibangun dengan React dan Vite, serta mengusung tema UI Neobrutalism yang konsisten dan responsif.
 
@@ -147,4 +153,4 @@ Dengan pola ini, setiap komponen baru tetap modular, konsisten, dan mudah di-mai
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/)
-
+- [Neobrutalism UI](https://neobrutalist.dev/)
