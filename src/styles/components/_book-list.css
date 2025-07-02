@@ -1,0 +1,159 @@
+/**
+ * Book List CSS untuk Book Manager
+ * Gaya daftar buku dengan tema Neobrutalism
+ */
+
+/* Container Daftar Buku */
+.book-list {
+  background-color: var(--color-background);
+  padding: var(--spacing-xl);
+  border: var(--border-width-lg) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Header Daftar Buku */
+.book-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-lg);
+  border-bottom: var(--border-width-sm) solid var(--color-border);
+}
+
+.book-list-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--color-text);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.book-count {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-primary-contrast);
+  background-color: var(--color-primary);
+  border: var(--border-width-md) solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-base);
+}
+
+.book-count:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Container Daftar */
+.book-list-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  background-color: var(--color-background-alt);
+  border: var(--border-width-md) dashed var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.empty-state-icon {
+  width: var(--spacing-3xl);
+  height: var(--spacing-3xl);
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text-light);
+}
+
+.empty-state-title {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.empty-state-text {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Loading State */
+.loading-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-xl);
+}
+
+.loading-spinner {
+  width: var(--spacing-2xl);
+  height: var(--spacing-2xl);
+  border: var(--border-width-md) solid var(--color-border);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Error State */
+.error-state {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background-color: var(--color-error-light);
+  border: var(--border-width-md) solid var(--color-error);
+  border-radius: var(--radius-lg);
+  color: var(--color-error-dark);
+}
+
+/* Pagination */
+.book-list-pagination {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: var(--border-width-sm) solid var(--color-border);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .book-list {
+    padding: var(--spacing-lg);
+  }
+
+  .book-list-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .book-count {
+    width: 100%;
+  }
+
+  .book-list-container {
+    gap: var(--spacing-md);
+  }
+
+  .empty-state {
+    padding: var(--spacing-xl);
+  }
+}

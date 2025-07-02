@@ -1,0 +1,149 @@
+/**
+ * Book Item CSS untuk Book Manager
+ * Gaya item buku dengan tema Neobrutalism
+ */
+
+/* Container Item Buku */
+.book-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  background-color: var(--color-background);
+  border: var(--border-width-md) solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-base);
+}
+
+.book-item:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary);
+}
+
+/* Informasi Buku */
+.book-info {
+  flex: 1;
+  min-width: 0; /* Untuk menangani overflow text */
+}
+
+.book-title {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.book-author {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: var(--font-size-base);
+  color: var(--color-text-light);
+}
+
+.book-description {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Meta Informasi */
+.book-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-sm);
+}
+
+.book-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  background-color: var(--color-background-alt);
+  border-radius: var(--radius-sm);
+}
+
+/* Aksi Buku */
+.book-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+/* Status Buku */
+.book-status {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+}
+
+.book-item.read {
+  background-color: var(--color-success-light);
+  border-style: dashed;
+  border-color: var(--color-success);
+}
+
+.book-item.read .book-status {
+  color: var(--color-success-dark);
+  background-color: var(--color-success-light);
+}
+
+.book-item.unread .book-status {
+  color: var(--color-warning-dark);
+  background-color: var(--color-warning-light);
+}
+
+/* Cover Buku */
+.book-cover {
+  width: 120px;
+  height: 180px;
+  flex-shrink: 0;
+  background-color: var(--color-background-alt);
+  border: var(--border-width-sm) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .book-item {
+    flex-direction: column;
+  }
+
+  .book-cover {
+    width: 100%;
+    height: 200px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .book-actions {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: var(--spacing-md);
+  }
+
+  .book-status {
+    position: static;
+    margin-bottom: var(--spacing-sm);
+  }
+}

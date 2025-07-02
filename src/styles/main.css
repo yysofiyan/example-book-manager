@@ -1,0 +1,31 @@
+/**
+ * Main CSS file untuk Book Manager
+ * Mengimpor semua modul CSS dalam urutan yang tepat
+ */
+
+/* Framework & Library imports */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+/* Base styles */
+@import "./base/_variables.css";
+@import "./base/_reset.css";
+@import "./base/_typography.css";
+
+/* Layout styles */
+@import "./layouts/_app.css";
+
+/* Component styles */
+@import "./components/_buttons.css";
+@import "./components/_forms.css";
+@import "./components/_book-item.css";
+@import "./components/_book-list.css";
+@import "./components/_filter.css";
+@import "./components/_notification.css";
+@import 'components/_header.css';
+@import 'components/_footer.css';
+
+/* Utility styles */
+@import "./utilities/_animations.css";
+@import "./utilities/_helpers.css";
