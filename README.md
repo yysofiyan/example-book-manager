@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-4.x-646CFF?logo=vite&logoColor=white" alt="Vite" /></a>
-  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black" alt="React" /></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-3.x-38BDF8?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
   <img src="https://img.shields.io/badge/Neobrutalism%20UI-%23FFBF00?style=flat-square" alt="Neobrutalism UI" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT" />
@@ -146,3 +146,4 @@ Dengan pola ini, setiap komponen baru tetap modular, konsisten, dan mudah di-mai
 - [React Documentation](https://react.dev/)
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/)
+
