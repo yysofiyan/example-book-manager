@@ -5,20 +5,11 @@
 </p>
 
 <p align="center">
-  <a href="https://vitejs.dev/">
-    <img src="https://img.shields.io/badge/Vite-4.x-646CFF?logo=vite&logoColor=white" alt="Vite" />
-  </a>
-  <a href="https://react.dev/">
-    <img src="https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black" alt="React" />
-  </a>
-  <a href="https://tailwindcss.com/">
-    <img src="https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  </a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-4.x-646CFF?logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
   <img src="https://img.shields.io/badge/Neobrutalism%20UI-%23FFBF00?style=flat-square" alt="Neobrutalism UI" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT" />
-  <a href="https://app.netlify.com/sites/book-managers/deploys">
-    <img src="https://api.netlify.com/api/v1/badges/de33da51-b984-4b4f-bbed-414ef6f07765/deploy-status" alt="Netlify Status" />
-  </a>
 </p>
 
 ---
