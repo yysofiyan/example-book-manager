@@ -1,7 +1,7 @@
 # Manajemen Buku Pribadi
 
 <p align="center">
-  <img src="public/screenshot.png" alt="Screenshot Aplikasi Manajemen Buku Pribadi" width="600" />
+  <img src="https://i.imgur.com/Ane8Q1u.png" alt="#" width="600" />
 </p>
 
 <p align="center">
